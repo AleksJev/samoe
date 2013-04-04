@@ -1,0 +1,14 @@
+#enter_site,#search,#nav ,.add_comments,.rg_nav,.comment,#footer{
+visibility:hidden;
+}
+
+.in_main{
+width:900px;
+}
+/* {
+ display:none;
+}
+
+body > .article{
+ display:block;
+}*/

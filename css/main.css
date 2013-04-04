@@ -1,0 +1,131 @@
+/*  MAIN  */
+#main{
+    width: 100%;
+    overflow: hidden;
+    padding-bottom: 50px;
+}
+.content{
+    margin: 5px 10px;
+    float: left;
+    width: 770px;
+    min-height: 1000px;
+    background: #FFFFFF;
+    font-family: Verdana;
+    text-align: justify;
+}
+.latest_art{
+    width: 235px;
+    height: 300px;
+    display: inline-table;
+    /*background: rgba(100,100,100,0.1);*/
+    border-radius: 5px;
+    position:relative;
+
+}
+.main_articles {
+    overflow: hidden;
+}
+.art {
+    width: 225px;
+    min-height: 230px;
+    float: left;
+    margin-left: 5px;
+    padding: 5px;
+    border-radius: 5px;
+}
+.art h3 a{
+    color: #366097;
+}
+.art:hover {
+    background: rgba(100,100,100,0.3);
+}
+.latest_art:hover{
+    background: rgba(100,100,100,0.3);
+}
+.latest_art img{
+    padding: 0px 15px;
+    
+}
+.latest_art a{
+    color:#454545;
+}
+.latest_art a:hover{
+    text-decoration: none;
+    color:#454545;
+}
+.rg_nav{
+    float: right;
+    width: 225px;
+    margin-top: 5px;
+    margin-right: 5px;
+    min-height: 630px;
+    /*background: #989797;*/
+    background: linear-gradient(top, #C0C0C0, #D7D7D7);
+    background: -webkit-linear-gradient(top, #C0C0C0, #D7D7D7);
+    background: -o-linear-gradient(top, #C0C0C0, #D7D7D7);
+    background: -moz-linear-gradient(top, #C0C0C0, #D7D7D7);
+}
+#enter_site{
+    width: 280px;
+    float: right;
+}
+a{
+    text-decoration: none;
+    color: #333399;
+}
+a:hover{
+    color: #0000FF;
+    text-decoration: underline;
+}
+.in_main{
+min-height: 1500px;
+    margin: 5px 15px;
+}
+.latest{
+    display: table-row;
+}
+.latest_art p{
+    padding: 3px;
+}
+/*      comments    */
+.add_comments .name{
+	float:left;
+	width:600px;
+}
+.add_comments .text{
+	float:left;
+	
+}
+.add_comments .captcha{
+	float:right;
+}
+.add_comments #add_comm{
+	margin-bottom:0px;
+}
+#mce_0_ifr{
+    min-height: 400px;
+}
+.comment{
+border:1px black solid;
+margin-bottom:1px;
+}
+.article p{
+    /*display: inline;*/
+    
+}
+.article >p>img{
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 10px;
+   /* vertical-align: middle*/
+}
+.article h3{
+    margin-top: 20px;
+}
+.in_main h4{
+    background: #7B7A7A;
+    color: white;
+    font-size: 18px;
+    font-family: Verdana;
+}
+

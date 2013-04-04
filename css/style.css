@@ -1,0 +1,52 @@
+@import "button.css";
+@import "main.css";
+@import "contact.css";
+@import "nav.css";
+@import "right_nav.css";
+@import "header.css";
+@import "koleso.css";
+@import "crud.css"; 
+@import "pagination.css"; 
+ 
+body{
+    /*background: #CCCCCC;*/
+    background: linear-gradient(left, #000000, #C0C0C0);
+    background: -webkit-linear-gradient(left, #000000, #C0C0C0);
+    background: -o-linear-gradient(left, #000000, #C0C0C0);
+    background: -moz-linear-gradient(left, #000000, #C0C0C0);
+    min-height: 1300px;
+    font-size:14px;
+}
+#container{
+    width: 1020px;
+    min-height: 1200px;
+    background: #E7E4E4;
+    margin: auto;
+    -moz-box-shadow: 0 0 25px #888;
+-webkit-box-shadow: 0 0 25px#888;
+box-shadow: 0 0 25px #888;
+}
+/*
+input[type="submit"]{
+    background: #C0C0C0;
+    padding: 4px 14px;
+    font-family: Papyrus;
+    border-radius: 5px;
+}
+input[type="submit"]:hover{
+    padding: 4px 16px;
+}*/
+input.search{
+height:10px;
+padding:10px 11px;
+
+}
+textarea{
+    resize:vertical;
+}
+#accordion div{
+    min-height: 10px;
+}
+a, a:hover{
+    text-decoration: none;
+}
