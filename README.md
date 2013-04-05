@@ -5,7 +5,7 @@
 <h2> Дипломная работа на Codeigniter</h2>
 <p>Защищял её в школе Web-Tehnoloģiju skola</p>
 
-<p>В папке Applocations находятся мои изменения</p>
+<p>В папке Applocation находятся мои изменения</p>
 <ul>
   <li>Controllers - контроллеры
   <li>Models - модели
